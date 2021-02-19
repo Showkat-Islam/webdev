@@ -1,7 +1,9 @@
-********** Be carefull about this 3 steps. [Without those information the project will not run.]
+*******[Its a Laravel Project.But to run this project you should not use php artisan serve.*****{just folow these steps given down.}
+Be carefull about this 3 steps. [Without those information the project will not run.]
+
 1) Keep the hole  "eat-fit-mealplan"  ->  [ full project folder in your htdocs folder(careful only "eat-fit-mealplan" ) ].
 
-2) Open env file and change this 2 value: [MAIL_USERNAME=   and  MAIL_PASSWORD=   with your own email and password.]
+2) Open env file and change this 2 value: [ MAIL_USERNAME=***   and  MAIL_PASSWORD=***   with your own email and password.]
 
 
 MAIL_MAILER=smtp
@@ -10,9 +12,9 @@ MAIL_HOST=smtp.gmail.com
 
 MAIL_PORT=587
 
-MAIL_USERNAME=please give your email
+MAIL_USERNAME=****please give your email
 
-MAIL_PASSWORD=please give your password
+MAIL_PASSWORD=****please give your password
 
 MAIL_ENCRYPTION=tls
 
@@ -20,14 +22,14 @@ MAIL_FROM_ADDRESS=null
 
 MAIL_FROM_NAME="${APP_NAME}"
 
-3) Last open App->Http->Controller->emailController.php file  and then change in line 28 number- (as looks down-line) [just give your email address:]-
+3) Lastly open App->Http->Controller->emailController.php file  and then change in line 28 number- (as looks down-line) [just give your email address:]-
 
     $message->from('Give your email','tuhin'); 
 
 
   all finish :
 
-(4)  Now start xampp server and from browser just hit any of the 2  lines given down:-
+(4)  Now start xampp server and from browser just hit any of the 2  lines given down:- (only any of this 2 lines)
 
 
 http://localhost/eat-fit-mealplan/public
